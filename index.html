@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Priyanshi Rajput | Portfolio</title>
+<meta name="description" content="Portfolio of Priyanshi Rajput, Full Stack Web Developer and Cyber Security student.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="progress"></div>
+<div id="glow"></div>
+<div class="bg" aria-hidden="true"><span class="aurora"></span><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span><span class="grid"></span><canvas id="net"></canvas></div>
+
+<header class="nav">
+  <a class="logo" href="#home">PR<span>.</span></a>
+  <button id="menuBtn" aria-label="Open menu" aria-expanded="false"><i></i><i></i><i></i></button>
+  <nav id="menu" aria-label="Main">
+    <a href="#home" class="on">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact" class="cta">Contact</a>
+  </nav>
+</header>
+
+<main>
+<!-- HOME -->
+<section id="home" class="sec hero">
+  <div class="hero-text">
+    <span class="pill">🎓 B.Tech CSE (Cyber Security) · Indore</span>
+    <h1 class="grad">Priyanshi<br>Rajput</h1>
+    <p class="typed"><span id="typed"></span><i class="caret"></i></p>
+    <p class="lead">I design and build fast, responsive web apps with clean code and interfaces people enjoy using.</p>
+    <div class="actions">
+      <a class="btn fill" href="#projects">View my work</a>
+      <a class="btn ghost" href="#contact">Hire me</a>
+      <a class="btn ghost" href="https://linkedin.com/in/priyanshi-rajput-016643335" target="_blank" rel="noopener"><i class="devicon-linkedin-plain"></i> LinkedIn</a>
+    </div>
+    <div class="stats">
+      <div><b data-count="6">0</b><span>Semester</span></div>
+      <div><b data-count="2">0</b><span>Projects</span></div>
+      <div><b data-count="3">0</b><span>Seminars</span></div>
+      <div><b data-count="2">0</b><span>Certificates</span></div>
+    </div>
+  </div>
+
+  <div class="visual">
+    <div class="orbit">
+      <i class="o devicon-html5-plain colored" style="--i:0"></i>
+      <i class="o devicon-css3-plain colored" style="--i:1"></i>
+      <i class="o devicon-javascript-plain colored" style="--i:2"></i>
+      <i class="o devicon-react-original colored" style="--i:3"></i>
+      <i class="o devicon-django-plain" style="--i:4"></i>
+      <i class="o devicon-git-plain colored" style="--i:5"></i>
+      <div class="frame"><img src="priyanshi.jpg" alt="Photo of Priyanshi Rajput"></div>
+    </div>
+    <div class="badge b-a">📍 Indore, India</div>
+    <div class="badge b-b">💻 Full Stack Developer</div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="track" id="track">
+  <i class="devicon-html5-plain colored"></i><i class="devicon-css3-plain colored"></i><i class="devicon-javascript-plain colored"></i><i class="devicon-react-original colored"></i><i class="devicon-tailwindcss-original colored"></i><i class="devicon-django-plain"></i><i class="devicon-c-plain colored"></i><i class="devicon-cplusplus-plain colored"></i><i class="devicon-mysql-plain colored"></i><i class="devicon-git-plain colored"></i><i class="devicon-vscode-plain colored"></i><i class="devicon-postman-plain colored"></i>
+</div></div>
+
+<!-- ABOUT -->
+<section id="about" class="sec">
+  <h2 class="title rv">About <em class="grad">me</em></h2>
+  <p class="about rv">I'm a Full Stack Web Developer studying Computer Science &amp; Engineering with a Cyber Security specialization. I'm strong in HTML and CSS, comfortable with back-end development, RESTful APIs, and database integration, and I care about writing clean, efficient code for responsive, user-centric websites.</p>
+
+  <div class="do">
+    <article class="card tilt rv"><i class="big">🎨</i><h3>Front-end development</h3><p>Responsive, accessible interfaces with HTML5, CSS3, JavaScript, React and Tailwind.</p></article>
+    <article class="card tilt rv"><i class="big">⚙️</i><h3>Back-end and APIs</h3><p>Django, Django REST Framework, REST APIs and SQL database integration.</p></article>
+    <article class="card tilt rv"><i class="big">🛡️</i><h3>Security-minded</h3><p>Studying Cyber Security and attending conclaves on threats and best practices.</p></article>
+  </div>
+
+  <h3 class="sub-title rv">Education</h3>
+  <ol class="timeline">
+    <li class="rv"><span class="tag">2023 – 2027</span><h3>B.Tech, CSE (Cyber Security)</h3><p>Shri Vaishnav Vidyapeeth Vishwavidyalaya, Indore. Currently in 6th semester.</p></li>
+    <li class="rv"><span class="tag">2023</span><h3>Class XII (MPBSE)</h3><p>Government Higher Secondary School, Shivpur, MP. <b>68.23%</b></p></li>
+    <li class="rv"><span class="tag">2021</span><h3>Class X (MPBSE)</h3><p>Narmada Shishu Vidya Mandir, Shivpur, MP. <b>78%</b></p></li>
+  </ol>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="sec">
+  <h2 class="title rv">My <em class="grad">skills</em></h2>
+  <p class="sub rv">Tools and technologies I work with.</p>
+
+  <h3 class="group rv">Front end</h3>
+  <div class="skills">
+    <div class="skill rv"><i class="devicon-html5-plain colored"></i><span>HTML5</span></div>
+    <div class="skill rv"><i class="devicon-css3-plain colored"></i><span>CSS3</span></div>
+    <div class="skill rv"><i class="devicon-javascript-plain colored"></i><span>JavaScript ES6+</span></div>
+    <div class="skill rv"><i class="devicon-react-original colored"></i><span>React.js</span></div>
+    <div class="skill rv"><i class="devicon-tailwindcss-original colored"></i><span>Tailwind CSS</span></div>
+    <div class="skill rv"><i class="emo">📱</i><span>Responsive design</span></div>
+  </div>
+
+  <h3 class="group rv">Back end and databases</h3>
+  <div class="skills">
+    <div class="skill rv"><i class="devicon-django-plain"></i><span>Django</span></div>
+    <div class="skill rv"><i class="emo">⚙️</i><span>Django REST Framework</span></div>
+    <div class="skill rv"><i class="emo">🔌</i><span>REST APIs</span></div>
+    <div class="skill rv"><i class="devicon-mysql-plain colored"></i><span>SQL and databases</span></div>
+  </div>
+
+  <h3 class="group rv">Languages and core concepts</h3>
+  <div class="skills">
+    <div class="skill rv"><i class="devicon-c-plain colored"></i><span>C</span></div>
+    <div class="skill rv"><i class="devicon-cplusplus-plain colored"></i><span>C++</span></div>
+    <div class="skill rv"><i class="emo">🧠</i><span>Data Structures and Algorithms</span></div>
+  </div>
+
+  <h3 class="group rv">Developer tools</h3>
+  <div class="skills">
+    <div class="skill rv"><i class="devicon-vscode-plain colored"></i><span>VS Code</span></div>
+    <div class="skill rv"><i class="devicon-postman-plain colored"></i><span>Postman</span></div>
+    <div class="skill rv"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="sec">
+  <h2 class="title rv">My <em class="grad">projects</em></h2>
+  <p class="sub rv">Things I've built and what I learned.</p>
+  <div class="projects">
+    <article class="project tilt rv">
+      <div class="thumb t1"><span>🌾</span></div>
+      <div class="body">
+        <span class="tag">Feb 2026 – May 2026</span>
+        <h3>Direct Access Market for Farmers</h3>
+        <p class="techs"><b>Mobile app</b><b>Secure login</b><b>Database</b></p>
+        <ul>
+          <li>Built a mobile app, associated with SVVV Indore, that lets farmers sell agricultural products directly to customers without intermediaries.</li>
+          <li>Added product listing, customer ordering, secure login, and market information to boost farmers' profits through transparency.</li>
+        </ul>
+      </div>
+    </article>
+    <article class="project tilt rv">
+      <div class="thumb t2"><span>🔐</span></div>
+      <div class="body">
+        <span class="tag">Web project</span>
+        <h3>Password Generator</h3>
+        <p class="techs"><b><i class="devicon-html5-plain colored"></i> HTML</b><b><i class="devicon-css3-plain colored"></i> CSS</b><b><i class="devicon-javascript-plain colored"></i> JavaScript</b></p>
+        <ul>
+          <li>Creates strong, random passwords through a simple, responsive interface.</li>
+          <li>Practiced DOM manipulation, event handling, and random string generation.</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements" class="sec">
+  <h2 class="title rv">Achievements and <em class="grad">certificates</em></h2>
+  <div class="ach">
+    <article class="card tilt rv"><i class="big">🤖</i><h3>AI Agents Seminar</h3><p>Organized by Neuron. Covered autonomous decision-making systems, agent architectures, and real-world AI applications.</p></article>
+    <article class="card tilt rv"><i class="big">💡</i><h3>Kaushal 6.0</h3><p>Theme: Synergy with the Digital Age. Explored digital transformation and innovation-driven problem solving.</p></article>
+    <article class="card tilt rv"><i class="big">🛡️</i><h3>8th National Conclave on Cyber Defence</h3><p>Learned about emerging cyber threats, security frameworks, and best practices for protecting digital infrastructure.</p></article>
+    <article class="card tilt rv"><i class="big">🎓</i><h3>Internship Completion Certificate</h3><p>Completed an internship at The Prime Step.</p></article>
+    <article class="card tilt rv wide"><i class="big">☁️</i><h3>Cloud Computing, 12 weeks (NPTEL)</h3><p>Cloud architecture, virtualization, distributed computing, service models (IaaS, PaaS, SaaS), resource provisioning, scalability, and deployment models.</p></article>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="sec">
+  <div class="cta-box rv">
+    <h2 class="title">Let's build something <em class="grad">together</em></h2>
+    <p class="sub">Have a project, internship, or idea? Send me a message.</p>
+    <div class="contact">
+      <div class="links">
+        <a class="link" href="mailto:priyanshirajput220@gmail.com"><i class="emo">✉️</i><span>priyanshirajput220@gmail.com</span></a>
+        <a class="link" href="tel:+916260621141"><i class="emo">📞</i><span>+91 6260621141</span></a>
+        <a class="link" href="https://linkedin.com/in/priyanshi-rajput-016643335" target="_blank" rel="noopener"><i class="devicon-linkedin-plain colored"></i><span>LinkedIn profile</span></a>
+        <div class="link"><i class="emo">📍</i><span>Indore, Madhya Pradesh, India</span></div>
+      </div>
+      <form id="form" class="form">
+        <label>Your name<input id="fname" required autocomplete="name"></label>
+        <label>Message<textarea id="fmsg" rows="5" required></textarea></label>
+        <button class="btn fill" type="submit">Send email</button>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>© <span id="year">2026</span> Priyanshi Rajput · <a href="https://linkedin.com/in/priyanshi-rajput-016643335" target="_blank" rel="noopener">LinkedIn</a></footer>
+<a id="top" href="#home" aria-label="Back to top">↑</a>
+<script src="script.js"></script>
+</body>
+</html>
